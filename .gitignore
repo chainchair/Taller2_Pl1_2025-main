@@ -1,0 +1,22 @@
+*.pyc
+# Entorno virtual
+env/
+venv/
+__pycache__/
+*.pyo
+*.pyd
+.Python
+*.sqlite3
+db.sqlite3
+
+# Archivos de logs
+*.log
+
+# Archivos de migraciones (opcional, solo si no quieres subirlas)
+# */migrations/*.py
+# !*/migrations/__init__.py
+
+# Archivos de IDE
+.vscode/
+.idea/
+*.swp
